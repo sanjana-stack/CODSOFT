@@ -142,6 +142,11 @@ nav {
 .contact .direct-contact {
   color: white;
 }
+.contact input, .contact textarea {
+  background-color: #fff;
+  color: #333;
+}
+
 
 .social-icons a {
   margin: 0 10px;
