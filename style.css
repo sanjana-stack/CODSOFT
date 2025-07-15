@@ -96,3 +96,25 @@ nav {
 .about-text p {
   line-height: 1.6;
 }
+.contact {
+  background-color: #f5f5f5;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
