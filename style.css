@@ -113,6 +113,46 @@ nav {
   margin: 8px 0;
   color: #555;
 }
+.skills {
+  background-color: #fff;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-box h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.skill-box p {
+  font-size: 14px;
+  color: #555;
+}
 
 .contact a {
   color: #007bff;
